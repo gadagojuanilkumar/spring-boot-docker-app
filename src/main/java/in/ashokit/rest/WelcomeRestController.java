@@ -1,4 +1,4 @@
-package in.ashokit.rest;
+package in.anil.rest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,7 +18,7 @@ public class WelcomeRestController {
 	@GetMapping
 	public String welcomeMsg() {
 		logger.info("***** welcomeMsg() execution start *****");
-		String msg = "Welcome to Ashok IT - Software Training Institute (HYD) ..!!";
+		String msg = "Welcome to Spring Boot application with Docker containerzation ..!!";
 		logger.info("***** welcomeMsg() execution end *****");
 		return msg;
 	}
