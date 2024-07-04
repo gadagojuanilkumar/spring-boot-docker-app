@@ -21,7 +21,7 @@ $ sudo yum install maven
 Git clone the Repo using the following command
 
 ```bash
-$ git clone
+$ git clone https://github.com/gadagojuanilkumar/spring-boot-docker-app.git
 ```
 
 Enter the directory by using the following command
